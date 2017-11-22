@@ -1,0 +1,376 @@
+/*
+Tipografía: Montserrat
+Botones, hover: #FF00BF
+Fondo de footer: #333447
+Título del formulario: #352384
+Texto del formulario: #728099
+Gradiente morado: linear-gradient(#76278F, #2B1E66);
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+ }
+
+/* Nav bar */
+nav {
+  position: absolute;
+}
+
+nav > .lyft-logo > img { /* Logo */
+  width: 67px;
+  height: 48px;
+  margin-left: 86px;
+  margin-top: 34px;
+}
+
+nav > .menu {
+  margin-top: 20px;
+  margin-left: 606px;
+}
+
+nav > .menu > p {
+  display: inline-block;
+  color: white;
+  font-size: 18px;
+  margin-left: 35px;
+}
+
+nav > .menu > .log-in { /* Estilo para botón "Log in" */
+  display: inline-block;
+  width: 97px;
+  height: 46px;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 35px;
+}
+
+nav > .menu > .log-in > p {
+  color: white;
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+/* Turn miles section */
+.turn-miles > img {
+  width: 1366px;
+  height: 542px;
+}
+
+.turn-miles > .space {
+  position: relative;
+  background-color: white;
+  width: 560px;
+  height: 424px;
+  margin-right: -86px;
+  margin-top: -428px;
+}
+
+.turn-miles > .space > .container {
+  width: 432px;
+  height: 313px;
+  margin-left: 64px;
+  margin-top: 68px;
+}
+
+.turn-miles > .space > .container > .title { /* Estilo para p */
+  color: #352384;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: -10px;
+}
+
+.turn-miles > .space > .container > .title > p { /* Quitando margen default de p */
+  margin: 0px;
+}
+
+.turn-miles > .space > .container > p { /* Estilo para "Sign up..." */
+  color: #352384;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.turn-miles > .space > .container > .phone-number {
+  margin-top: 33px;
+}
+
+.turn-miles > .space > .container > .phone-number > p { /* Estilo para "Phone number" */
+  color: #c3c3c3;
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: -4px;
+}
+
+.turn-miles > .space > .container > .phone-number > hr { /* Estilo de línea */
+  border: 0.5px solid #352384;
+  width: 90%;
+  margin-left: 0px;
+}
+
+.turn-miles > .space > .container > .buttons {
+  margin-top: 35px;
+}
+
+.turn-miles > .space > .container > .buttons > .become-a-driver { /* Estilo botón "Become..."*/
+  display: inline-block;
+  width: 167px;
+  height: 50px;
+  background-color: #ff00bf;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+
+.turn-miles > .space > .container > .buttons > .sign-up {
+  display: inline-block;
+  text-align: center;
+  margin-left: 0px;
+  color: #728099;
+  text-decoration: underline;
+  margin-left: 20px;
+}
+
+.turn-miles > .space > .container > .already-applied {
+  margin-top: 23px;
+}
+
+.turn-miles > .space > .container > .already-applied > p {
+  color: #728099;
+  font-size: 10px;
+  margin: 0px;
+}
+
+/* Presentation section */
+.presentation {
+  background: linear-gradient(-180deg, #691b84, #2b1e66); /* Degradado para background */
+  width: 1366px;
+  height: 642px;
+  margin-top: -428px;
+}
+
+.presentation > .space {
+  width: 471px;
+  height: 434px;
+  margin-top: 104px;
+  margin-left: 160px;
+  color: white;
+}
+
+.presentation > .space > .container:first-child {
+  margin-top: 15px;
+}
+
+.presentation > .space > .container {
+  margin-bottom: 97px;
+}
+
+.presentation > .space > .container > h2 {
+  margin-top: 15px;
+}
+
+.presentation > .space > .container > h2:last-of-type {
+  margin-top: -20px;
+}
+
+.presentation > .space > .container > p {
+  margin-top: -16px;
+  line-height: 1.5;
+}
+
+.presentation > .float-right > img {
+  width: 476px;
+  height: 498px;
+  margin-top: 81px;
+  margin-right: 169px;
+}
+
+/* Video 1 section */
+.amplify-your-ride {
+  width: 1366px;
+  height: 506px;
+}
+
+.amplify-your-ride > .space {
+  background-color: white;
+  width: 454px;
+  height: 506px;
+}
+
+.amplify-your-ride > .space > .container {
+  width: 323px;
+  height: 159px;
+  margin-left: 56px;
+  margin-top: 30px;
+  color: black;
+}
+
+.amplify-your-ride > .space > .container > h2 {
+  margin-top: -20px;
+}
+
+.amplify-your-ride > .space > .container > p {
+  font-size: 15.5px;
+}
+
+/* Video 2 section */
+.june {
+  width: 1366px;
+  height: 506px;
+}
+
+.june > .space {
+  background-color: white;
+  width: 454px;
+  height: 506px;
+}
+
+.june > .space > .container {
+  width: 323px;
+  height: 159px;
+  margin-left: 56px;
+  margin-top: 30px;
+  color: black;
+}
+
+.june > .space > .container > h2 {
+  margin-top: -20px;
+}
+
+.june > .space > .container > p {
+  font-size: 15.5px;
+}
+
+/* Video 3 section */
+.good-thing {
+  width: 1366px;
+  height: 506px;
+}
+
+.good-thing > .space {
+  background-color: white;
+  width: 454px;
+  height: 506px;
+}
+
+.good-thing > .space > .container {
+  width: 323px;
+  height: 159px;
+  margin-left: 56px;
+  margin-top: 30px;
+  color: black;
+}
+
+.good-thing > .space > .container > h2 {
+  margin-top: -20px;
+}
+
+.good-thing > .space > .container > p {
+  font-size: 15.5px;
+}
+
+/* Footer section */
+.footer {
+  background-color: #333447;
+  width: 1366px;
+  height: 568px;
+  color: white;
+}
+
+.footer > .info { /* Estilo para info "LOG IN / PARTNER / LEARN" */
+  width: 1366px;
+  height: 337px;
+}
+
+.footer > .info > .info-container {
+  display: inline-block;
+  width: 803px;
+  height: 212px;
+  margin-left: 137px;
+  margin-top: 64px;
+}
+
+.footer > .info > .info-container > .rectangle {
+  display: inline-block;
+  width: 161px;
+  height: 212px;
+  margin-right: 103px;
+
+}
+
+.footer > .info > .info-container > .rectangle > span {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.footer > .info > .info-container > .rectangle > span:hover { /* Hover de span */
+  color: #b31586;
+}
+
+.footer > .info > .info-container > .rectangle > p:hover { /* Hover de p */
+  color: #b31586;
+}
+
+.footer > .info > .logos {
+  display: inline-block;
+  width: 131px;
+  height: 212px;
+  margin-top: 64px;
+}
+
+.footer > .info > .logos > img {
+  width: 131px;
+  height: 40px;
+  margin-bottom: 28px;
+}
+
+.footer > .social-media { /* Estilo para íconos de social media */
+  width: 1366px;
+  height: 86px;
+}
+
+.footer > .social-media > .iconos {
+  display: inline-block;
+  width: 306px;
+  height: 34px;
+  margin-left: 564px;
+  margin-top: 31px;
+}
+
+.footer > .social-media > .iconos > img {
+  width: 34px;
+  height: 34px;
+  margin-right: 65px;
+}
+
+hr {
+  border: 1px solid white;
+  width: 50%;
+}
+
+.footer > .terms { /* Estilo para terms */
+  width: 1366px;
+  height: 117px;
+}
+
+.footer > .terms > p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  padding-top: 41px;
+}
+
+/* Clases reutilizables */
+.float-left {
+  float: left
+}
+
+.float-right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
